@@ -33,6 +33,7 @@ Locally
 
 Remotely with GitHub Codespaces
   - use codespaces
+  - install uv
 
 ## Prepare and run
 - `uv sync`
