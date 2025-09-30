@@ -44,9 +44,19 @@ Remotely with GitHub Codespaces
 
 # Deploy with render.com
 - create an account at render.com
-- create Web Service
+- [create Web Service](https://dashboard.render.com/web/new)
 - plug in public github url
-- build command: `run uv sync --frozen && uv cache prune --ci && uv run manage.py migrate`
-- start command: `uv run manage.py runserver 0.0.0.0:$PORT`
+- make sure language is `Python 3`
+- build command: `uv sync --frozen && uv cache prune --ci && uv run manage.py migrate`
+  - you can do `uv run manage.py migrate` in Advanced/pre-deploy command instead
+- start command: `uv run manage.py runserver 0.0.0.0:$PORT` (this is a dev server, for prod deploments use `gunicorn`)
+- choose Instance type: `Free`
 - env var: `ALLOWED_HOSTS`, value: `*`
-- env var `CSRF_TRUSTED_ORIGINS`: `https://*.render.com`
+- env var `CSRF_TRUSTED_ORIGINS`: `https://*.onrender.com`
+
+### DE on Render.com
+- [Create new Postgres DB](https://dashboard.render.com/new/database)
+- choose Free instance
+- copy internal connection URL
+- prepend `uv add psycopg2-binary && ` to build command:
+  - `uv add psycopg2-binary && uv sync --frozen && uv cache prune --ci && uv run manage.py migrate`
