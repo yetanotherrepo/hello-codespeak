@@ -33,7 +33,8 @@ Locally
 
 Remotely with GitHub Codespaces
   - use codespaces
-  - install uv
+  - [install uv](https://docs.astral.sh/uv/getting-started/installation/)
+    - `curl -LsSf https://astral.sh/uv/install.sh | sh`
 
 ## Prepare and run
 - `uv sync`
