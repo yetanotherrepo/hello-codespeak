@@ -13,15 +13,16 @@ The following instructions are copied to the new repo
 
 # Set up the CodeSpeak Build Process
 
+- [Edit spec](../../edit/main/spec/main.cs.md)
+  - commit
 - [New Secret](../../settings/secrets/actions/new)
   - `ANTHROPIC_API_KEY`
   - https://console.anthropic.com/settings/keys
 - [Install CodeSpeak App](https://github.com/apps/codespeak-build)
   - [Check](../../settings/installations)
-- [Edit spec](../../edit/main/spec/main.cs.md)
-  - refresh or
-  - [Commit history for main.cs.md](../../commits/main/spec/main.cs.md)
-- Look at the [commit](../../commit/HEAD)
+- Look at the [last commit](../../commit/HEAD)
+  - or [Commit history for main.cs.md](../../commits/main/spec/main.cs.md)
+  - see checks' status
 
 
 # Run the app
