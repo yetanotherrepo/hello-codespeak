@@ -24,6 +24,8 @@ The following instructions are copied to the new repo
   - or [Commit history for main.cs.md](../../commits/main/spec/main.cs.md)
   - see checks' status
 
+### Code Change Requests
+- [Change request](../../new/main?filename=change-request.cs.md&value=Describe%20your%20change%20request%20here)
 
 # Run the app
 
