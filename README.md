@@ -43,7 +43,7 @@ uv run python manage.py runserver
 
 The server will display the URL to access the app (usually [http://localhost:8000](http://localhost:8000)).
 
-Congratulations! You've built your first app with CodeSpeak.
+### 🎉 Congratulations! You've built your first app with CodeSpeak 🎉 
 
 Now, you can edit the spec and build again. For more guidance, see the  docs at https://codespeak.dev/alpha_0.0.1.
 
