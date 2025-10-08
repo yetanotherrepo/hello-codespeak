@@ -7,7 +7,7 @@ Quick Start
 
 - [Configure BYOK for Anthropic](../../settings/secrets/actions/new)
   - secret name: `ANTHROPIC_API_KEY`
-  - Generate your key with [Anthropic Console](https://console.anthropic.com/settings/keys)
+  - generate your key with [Anthropic Console](https://console.anthropic.com/settings/keys)
 - [Install CodeSpeak App](https://github.com/apps/codespeak-build/installations/new)
   - choose your repo from the list
 
@@ -49,7 +49,7 @@ Now, you can edit the spec and build again. For more guidance, see the  docs at 
 
 ## P.S. Code Change Requests
 
-If you find a bug in the code that CodeSpeak generated, or want to change a non-functional aspect of the code that's too low-level for the spec, you can create a [**Code Change Request**](https://codespeak.notion.site/Fixing-Bugs-and-micro-decisions-with-Code-Change-Requests-CCR-286822cd3e34807090b3f78755f01b04?pvs=74) using the links below:
+If you find a bug in the code that CodeSpeak generated, or want to change a non-functional aspect of the code that's too low-level for the spec, you can create a *Code Change Request* (see [docs](https://codespeak.notion.site/Fixing-Bugs-and-micro-decisions-with-Code-Change-Requests-CCR-286822cd3e34807090b3f78755f01b04?pvs=74)) using the links below:
 
 - [Create a change request](../../new/main?filename=change-request.cs.md&value=Describe%20your%20change%20request%20here)
 
