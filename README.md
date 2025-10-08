@@ -47,7 +47,7 @@ Congratulations! You've built your first app with CodeSpeak.
 
 Now, you can edit the spec and build again. For more guidance, see the  docs at https://codespeak.dev/alpha_0.0.1.
 
-### P.S. Code Change Requests
+## P.S. Code Change Requests
 
 If you find a bug in the code that CodeSpeak generated, or want to change a non-functional aspect of the code that's too low-level for the spec, you can create a [**Code Change Request**](https://codespeak.notion.site/Fixing-Bugs-and-micro-decisions-with-Code-Change-Requests-CCR-286822cd3e34807090b3f78755f01b04?pvs=74) using the links below:
 
