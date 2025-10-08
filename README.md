@@ -25,7 +25,7 @@ When the build is finished, CodeSpeak will create a new commit in the repo with 
 
 To run this code, you need to
 - either clone the repo locally,
-- or use GitHub Codespaces.
+- or use [GitHub Codespaces](../../codespaces).
 
 You will need `uv` to run the code. To install `uv`, use [these instructions](https://docs.astral.sh/uv/getting-started/installation/). The shortcut command for most scenarios is:
 ```bash
