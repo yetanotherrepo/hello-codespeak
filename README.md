@@ -1,25 +1,20 @@
-[Create a new repo from template](https://github.com/new?template_name=hello-codespeak&template_owner=codespeak-dev)
-  - repo name
-  - visibility: public (private is OK)
+Quick Start
+===========
 
+<sub>Note: find detailed docs at https://codespeak.dev/alpha_0.0.1</sub>
 
-# 🔴 Now continue in the new repo
+## Set up the CodeSpeak build process
 
-The following instructions are copied to the new repo
+- [Configure BYOK for Anthropic](../../settings/secrets/actions/new)
+  - secret name: `ANTHROPIC_API_KEY`
+  - Generate your key with [Anthropic Console](https://console.anthropic.com/settings/keys)
+- [Install CodeSpeak App](https://github.com/apps/codespeak-build/installations/new)
+  - choose your repo from the list
 
-----
-
-
-
-# Set up the CodeSpeak Build Process
-
-- [Edit spec](../../edit/main/spec/main.cs.md)
-  - commit
-- [New Secret](../../settings/secrets/actions/new)
-  - `ANTHROPIC_API_KEY`
-  - https://console.anthropic.com/settings/keys
-- [Install CodeSpeak App](https://github.com/apps/codespeak-build)
-  - [Check](../../settings/installations)
+## Build your first app
+- [Edit your spec](../../edit/main/spec/main.cs.md)
+  - the default template contains a spec for an example ToDo app in `<!-- ... -->` comments
+  - uncomment it to try the example
 - Look at the [last commit](../../commit/HEAD)
   - or [Commit history for main.cs.md](../../commits/main/spec/main.cs.md)
   - see checks' status
@@ -27,7 +22,7 @@ The following instructions are copied to the new repo
 ### Code Change Requests
 - [Change request](../../new/main?filename=change-request.cs.md&value=Describe%20your%20change%20request%20here)
 
-# Run the app
+## Run the app
 
 Locally
   - clone/pull locally

@@ -1,17 +1,30 @@
 // This is a comment. This line is ignored.
-// Here’s an example of a CodeSpeak spec file.
+<!-- This is a multiline comment. 
+These lines are ignored too. -->
 
-HelloWorld is a simple web app that displays a greeting.
+// Feel free to un-comment the example spec below to try CodeSpeak in action:
 
-# Tech Stack
+<!-- 
+Todoer is a a personal ToDo app.
 
+### Tech Stack
 - Django
 - Tailwind CSS
 
-# Routing
+### Data
 
-The app responds to only one route (/).
+- Todo list item
+  - content: plain text
+  - created_at
+  - marked_as_done_at
 
-# User Interface
+### User stories
 
-A nice looking HTML page with the message: "Hello from CodeSpeak!"
+- add a new entry
+- mark entry as Done (checkbox)
+- remove an entry
+
+### Notes
+
+This app does not have any notion of a User. Whoever visits it can do all the actions, there's no auth.
+-->
