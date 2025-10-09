@@ -5,7 +5,7 @@ These lines are ignored too. -->
 // Feel free to un-comment the example spec below to try CodeSpeak in action:
 
 <!-- 
-Todoer is a a personal ToDo app.
+Todoer is a personal ToDo app.
 
 ### Tech Stack
 - Django
