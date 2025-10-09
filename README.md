@@ -37,6 +37,7 @@ Here are the steps to clone the repo locally:
 git clone <repo URL>
 cd <repo name>
 uv sync
+uv run python manage.py makemigrations
 uv run python manage.py migrate
 uv run python manage.py runserver
 ```
