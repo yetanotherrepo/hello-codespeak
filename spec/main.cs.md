@@ -8,6 +8,7 @@ These lines are ignored too. -->
 Todoer is a personal ToDo app.
 
 ### Tech Stack
+
 - Django
 - Tailwind CSS
 
