@@ -16,8 +16,12 @@ Quick Start
   - the default template contains a spec for an example ToDo app in `<!-- ... -->` comments
   - uncomment it to try the example
 - Look at the [last commit](../../commit/HEAD)
-  - or [Commit history for main.cs.md](../../commits/main/spec/main.cs.md)
-  - see checks' status
+  - or [Commit history for main.cs.md](../../commits/main/spec/main.cs.md)<br/>
+    <img width="638" height="410" alt="statuses" src="https://github.com/user-attachments/assets/1c854be1-20b1-4582-972e-12b03cfbcf2a" /> 
+  - see checks' status<br/>
+    <img width="746" height="247" alt="image (2)" src="https://github.com/user-attachments/assets/96093e58-01ce-4d31-a040-50d1af5da0a1" />
+  - build status screen:<br/>
+    <img width="848" height="648" alt="image (3)" src="https://github.com/user-attachments/assets/665b0afc-74d3-4092-9870-be7d5cb7f86f" />
 
 ## Run the code
 
