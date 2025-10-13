@@ -12,7 +12,7 @@ Quick Start
   - choose your repo from the list
 
 ## Build your first app
-- [Edit your spec](../../edit/main/spec/main.cs.md)
+- Edit your spec at [`spec/main.cs.md`](../../edit/main/spec/main.cs.md) (you can do it from the GitHub UI)
   - the default template contains a spec for an example ToDo app in `<!-- ... -->` comments
   - uncomment it to try the example
 - Look at the [last commit](../../commit/HEAD)
