@@ -215,3 +215,7 @@ __marimo__/
 
 durations.svg
 .codespeak/ignored/
+
+# JS / TS
+node_modules/
+.next/
